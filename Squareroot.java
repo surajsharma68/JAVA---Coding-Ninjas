@@ -5,6 +5,7 @@ public class Squareroot {
 	
 	public static void main(String args[])
 	{
+		//INTEGRAL
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int i =1;
