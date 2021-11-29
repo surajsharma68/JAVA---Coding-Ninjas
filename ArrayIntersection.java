@@ -25,7 +25,7 @@ public class ArrayIntersection {
 			
 			for(int j =0;j<ar2;j++)
 			{
-				if((arr2.length==1) && (i ==1) )
+				if((arr2.length==1) && (i ==1) && (arr1[i]) == (arr2[j]) )
 						{
 					break;
 						}
