@@ -20,15 +20,15 @@ public class HighestOccur {
 		
 		for(int i=0;i<str.length();i++)
 		{
-			int count =0;
-			for(int j=i;j<str.length();j++)
+			int count =1;
+			for(int j=i+1;j<str.length();j++)
 			{
 				if(str.charAt(i)==str.charAt(j))
 				{
 					count++;
 				}
 				
-				else if (count>=max)
+				if (count>max)
 				{
 					max = count;
 				    ans = str.charAt(i);
@@ -36,5 +36,6 @@ public class HighestOccur {
 
 			}
 		}
+		System.out.print(ans);
 	}
 }
